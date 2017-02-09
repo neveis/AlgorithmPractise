@@ -1,0 +1,9 @@
+{
+  "name": "quicksort_js",
+  "version": "0.0.0",
+  "description": "Quicksort_JS",
+  "main": "test.js",
+  "author": {
+    "name": "Pbin"
+  }
+}

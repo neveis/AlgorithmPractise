@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D7F35539-E637-42CF-8352-4C15C74CB7C1}</ProjectGuid>
-    <RootNamespace>Quicksort</RootNamespace>
+    <ProjectGuid>{6E947AE0-03F1-4BC1-9472-E7A900644457}</ProjectGuid>
+    <RootNamespace>HeapSort</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,11 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
-    <ClCompile Include="Quicksort.c" />
+    <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="MaxHeap.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Quicksort.h" />
+    <ClInclude Include="MaxHeap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
